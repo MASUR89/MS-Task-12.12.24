@@ -45,3 +45,83 @@ body {
     font-weight: 300;
     line-height: 26px;
 }
+.right {
+    width: 540px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.rup {
+    width: 540px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #5E54A4;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px; 
+    letter-spacing: 0.268px;
+    padding-top: 17px;
+}
+.rup span {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.268px;
+}
+.rdown {
+    width: 540px;
+    height: 474px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}
+.forma {
+    width: 460px;
+    min-height: 394px;
+
+}
+input {
+    width: 460px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    margin-bottom: 20px;
+    padding: 15px 32px;
+}
+button  {
+    width: 460px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+.text {
+    color: #BAB7D4;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 26px; 
+}
+.text .red {
+    color: #FF7979;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 26px;
+}
